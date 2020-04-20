@@ -38,7 +38,7 @@ def generate_qr(data):
 
     YouTube(data).streams.get_highest_resolution().download(filename)
 
-    print("SUCCESS")
+    print("SUCESS")
 
 
 eel.start('about.html', size=(1000, 600))
