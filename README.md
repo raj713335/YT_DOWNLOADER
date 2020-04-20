@@ -1,8 +1,8 @@
-# YT_DOWNLOAD
+# YT_DOWNLOADER
 A CROSS PLATFORM DESKTOP APPLICATION TO DOWNLOAD YOUTUBE VIDEOS AND PLAYLIST
 
 
-# YT_DOWNLOAD
+# YT_DOWNLOADER
 
 The simplest and fastest way to create applications with a Web UI and a Python backend.
 ![](YT_DOWNLOADER.png)
@@ -12,10 +12,10 @@ The simplest and fastest way to create applications with a Web UI and a Python b
 - Clone the repo and cd into the directory
 ```sh
 $ git clone https://github.com/raj713335/YT_DOWNLOAD.git
-$ cd YT DOWNLOAD
+$ cd YT_DOWNLOADER
 ```
 
-- Install eel, pytube3, and pyinstaller
+- Install Eel, pytube3, , pyinstaller and easytkinter
 
 ```sh
 $ pip install eel pytube3 pyinstaller pypng
