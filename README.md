@@ -18,7 +18,7 @@ $ cd YT_DOWNLOADER
 - Install Eel, pytube3, , pyinstaller and easytkinter
 
 ```sh
-$ pip install eel pytube3 pyinstaller pypng
+$ pip install eel pytube3 pyinstaller easytkinter
 ```
 
 - Run the app
