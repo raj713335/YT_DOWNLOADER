@@ -1,37 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>VIDEO DOWNLOAD</title>
-    <meta charset="utf-8">
-    <meta charset="UTF-8">
-    <meta name="description" content="">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link href="style.css" rel="stylesheet">
-    <script type="text/javascript" src="/eel.js"></script>
-    <script type="text/javascript" src="app.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <link href="https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,700,800" rel="stylesheet">
-
-    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
-    <link rel="stylesheet" href="css/animate.css">
-
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
-
-    <link rel="stylesheet" href="css/aos.css">
-
-    <link rel="stylesheet" href="css/ionicons.min.css">
-
-    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
-    <link rel="stylesheet" href="css/jquery.timepicker.css">
-
-
-    <link rel="stylesheet" href="css/flaticon.css">
-    <link rel="stylesheet" href="css/icomoon.css">
-    <link rel="stylesheet" href="css/style.css">
+<head>
+	<title>VIDEO DOWNLOAD</title>
+	<meta charset="utf-8">
+	<meta charset="UTF-8">
+	<meta name="description" content="">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link href="style.css" rel="stylesheet">
+	<script type="text/javascript" src="/eel.js"></script>
+	<script type="text/javascript" src="app.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	
+	<link href="https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,700,800" rel="stylesheet">
+	
+	<link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+	<link rel="stylesheet" href="css/animate.css">
+	
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	
+	<link rel="stylesheet" href="css/aos.css">
+	<link rel="stylesheet" href="css/ionicons.min.css">
+	
+	<link rel="stylesheet" href="css/bootstrap-datepicker.css">
+	<link rel="stylesheet" href="css/jquery.timepicker.css">
+	
+	<link rel="stylesheet" href="css/flaticon.css">
+	<link rel="stylesheet" href="css/icomoon.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/styles.css">
 
 
 
@@ -44,56 +43,75 @@
 			color:#fff;
 		}
 	</style> -->
-
-  </head>
-  <body>
-  
-  <div class="hero-wrap js-fullheight">
-	<div class="overlay"></div>
-		<div id="particles-js"></div>
-			<div class="container">
-				<div class="row no-gutters slider-text justify-content-center" data-scrollax-parent="true">
-					<div class="col-md-3 col-sm-1 col-1"></div>
-					<div class="col-md-6 col-sm-10 col-10 ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
-						<form action="#" class="subscribe-form">	
-							<div class="form-group">
-								<h1 class="text-center">Enter the URL</h1>
-								<input type="text" class="form-control text-center" id="yt-video-url" placeholder="Enter url link">
+	
+	</head>
+	<body>
+	
+	<nav class="navbar navbar-expand-lg navbar-light sticky-top bg-dark">
+		<a class="navbar-brand" href="#">YT DOWNLOADER</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		
+		<div class="collapse navbar-collapse" id="navbarNav">
+		
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link" href="about.html"><span class="fa fa-home"></span>HOME</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	
+	<div class="hero-wrap js-fullheight">
+		<div class="overlay"></div>
+			<div id="particles-js"></div>
+				<div class="container">
+					<div class="row no-gutters slider-text justify-content-center" data-scrollax-parent="true">
+						<div class="col-md-3 col-sm-1 col-1"></div>
+						<div class="col-md-6 col-sm-10 col-10 ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+							<br><br>
+							<br><br>
+							<form action="#" class="subscribe-form">	
+								<div class="form-group">
+									<h1 class="text-center">Enter the URL</h1>
+									<input type="text" class="form-control text-center" id="yt-video-url" placeholder="Enter the YT Video Link">
+									<p class="text-center text-danger" id="error-statement"></p>
+								</div>
+							</form>
+								
+							<br>
+								
+							<div class="row">
+								<div class="col-md-12 col-sm-12 text-center">
+									<button class="btn btn-primary btn-outline-white px-5 py-3 text-center" onclick="ytView();">PREVIEW</button>
+								</div>
+								<div class="col-md-2"></div>
 							</div>
-						</form>
 							
-						<br>
-							
-						<div class="row">
-							<div class="col-md-12 col-sm-12 text-center">
-								<button class="btn btn-primary btn-outline-white px-5 py-3 text-center" onclick="ytView();">PREVIEW</button>
-							</div>
-							<div class="col-md-2"></div>
-						</div>
-							
-						<br>
-							
-						<div class="row">
-							<div class="col-md-12 col-sm-12">
-								<div class="row">
-									<div class="col-md-6 col-sm-6">
-										<div id="yt-video" class="embed-responsive embed-responsive-4by3"></div>
-									</div>
-									
-									<div class="col-md-6 col-sm-6">
-										<br>
-										<div id="YTVideoDetails"></div>
-										<br>
-										<div id="yt-download-button"></div>
+							<br>
+								
+							<div class="row">
+								<div class="col-md-12 col-sm-12">
+									<div class="row">
+										<div class="col-md-6 col-sm-6">
+											<div id="yt-video" class="embed-responsive embed-responsive-4by3"></div>
+										</div>
+										
+										<div class="col-md-6 col-sm-6">
+											<br>
+											<div id="YTVideoDetails"></div>
+											<br>
+											<div id="yt-download-button"></div>
+										</div>
 									</div>
 								</div>
 							</div>
 						</div>
+						<div class="col-md-3 col-sm-1 col-1"></div>
 					</div>
-					<div class="col-md-3 col-sm-1 col-1"></div>
 				</div>
 			</div>
-		</div>
 
 
 
