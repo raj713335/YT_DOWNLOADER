@@ -5,6 +5,7 @@ A CROSS PLATFORM DESKTOP APPLICATION TO DOWNLOAD YOUTUBE VIDEOS AND PLAYLIST
 # YT_DOWNLOADER
 
 The simplest and fastest way to create applications with a Web UI and a Python backend.
+![Farmers Market Finder Demo](demo/YOUTUBE_VIDEO_DOWNLOADER_GUI.mp4)
 ![](YOUTUBE_VIDEO_DOWNLOADER_GUI.mp4)
 
 
