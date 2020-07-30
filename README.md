@@ -12,7 +12,7 @@ The simplest and fastest way to create applications with a Web UI and a Python b
 # YT_DOWNLOADER WORKING
 
 <p align="center">
-    <img src="DEMO/1.gif", width="800">
+    <img src="DEMO/1.gif", width="1000">
     <br>
     <sup>The simplest and fastest way to create applications with a Web UI and a Python backend</sup>
 </p>
