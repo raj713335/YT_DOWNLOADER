@@ -11,8 +11,11 @@ The simplest and fastest way to create applications with a Web UI and a Python b
 
 # YT_DOWNLOADER WORKING
 
-The simplest and fastest way to create applications with a Web UI and a Python backend.
-![](DEMO/1.gif,width="800")
+<p align="center">
+    <img src="DEMO/1.gif", width="500">
+    <br>
+    <sup>The simplest and fastest way to create applications with a Web UI and a Python backend</sup>
+</p>
 
 
 ## Getting Started
