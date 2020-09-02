@@ -21,7 +21,7 @@ The simplest and fastest way to create applications with a Web UI and a Python b
 ## Getting Started
 - Clone the repo and cd into the directory
 ```sh
-$ git clone https://github.com/raj713335/YT_DOWNLOAD.git
+$ git clone https://github.com/raj713335/YT_DOWNLOADER.git
 $ cd YT_DOWNLOADER
 ```
 
